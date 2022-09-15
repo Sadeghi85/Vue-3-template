@@ -1,0 +1,24 @@
+
+install Node.js LTS Version: 16.x
+
+Add %APPDATA%\npm to the PATH
+
+npm install -g npm@latest
+
+npm init vue@latest
+
+	- Project name: vite-project
+	- Add TypeScript: yes
+	- Add JSX Support: no
+	- Add Vue Router: yes
+	- Add Pinia: yes
+	- Add Vitest: no
+	- Add Cypress: no
+	- Add ESLint: yes
+	- Add Prettier: yes
+	
+cd vue-project
+npm install
+npm run lint
+npm run dev
+
